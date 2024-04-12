@@ -1,0 +1,8 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("unsplash.jpg");
+    background-size: contain;
+}

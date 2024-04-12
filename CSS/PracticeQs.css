@@ -1,0 +1,22 @@
+h1{
+    color: #316FF6;
+}
+.userbtn{
+    background-color: #316FF6;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 6px;
+    font-family: Arial;
+}
+label{
+    font-size: 18px;
+}
+#searchbtn{
+    background-color: green;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 6px;
+    font-family: Arial;
+}

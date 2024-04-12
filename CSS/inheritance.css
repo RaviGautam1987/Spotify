@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(43, 48, 184);
+}
+label{
+    color:rgb(3, 75, 34);
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+input{
+    background-color: azure;
+    font-size: large;
+}
+button{
+    background-color: blue;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 6px  ;
+}
+p{
+    color:brown;
+}

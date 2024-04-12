@@ -1,0 +1,85 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: MyAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    animation-name: MyColorAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.box2{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    /* animation-name: MyWidthAnimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    animation: MyWidthAnimation 4s ease-in 0s infinite normal;
+}
+
+.box3{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(183, 183, 203);     
+    animation: MyColorAnimation 4s ease-in 0s infinite normal;
+}
+@keyframes MyAnimation{
+    form{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes MyColorAnimation{
+    form{
+        background-color: blue;
+    }
+    to{
+        background-color: green;
+    }
+}
+
+@keyframes MyWidthAnimation{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+@keyframes MyColorAnimation{
+    0%{
+        background-color: red;
+    }
+    30%{
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+    }
+    100%{
+        background-color: darkmagenta;
+    }
+}

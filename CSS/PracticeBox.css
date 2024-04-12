@@ -1,0 +1,23 @@
+#traffic_light{
+    width: 70px;
+    height: 200px;
+    border: 2px solid black;
+}
+ #traffic_light1,#traffic_light2,#traffic_light3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+} 
+#traffic_light1{
+    background-color: red;
+}
+#traffic_light2{
+    background-color: yellow;
+}
+#traffic_light3{
+    background-color: green;
+}
+ 
+
